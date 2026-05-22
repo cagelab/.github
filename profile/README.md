@@ -1,8 +1,8 @@
-# ✨ Welcome to CageLab Repositories ✨
+# ✨ Welcome to CageLab ✨
 
 ## About CageLab
 
-CageLab is a collaborative project to build a high-throughput and large-scale cognitive training and testing device for many subjects. In-cage testing and training is a 3Rs refinement for cognitive neuroscience research. The problem with existing cognitive testing / training systems is they do not scale well as the subject count increases. 
+CageLab is a collaborative project to build a high-throughput and large-scale cognitive training and testing platform for many subjects. In-cage testing and training is a strong 3Rs refinement for cognitive neuroscience research. The problem with existing cognitive testing / training kiosks is they do not scale well as the subject count increases. We solve this by implementing a robust remote control interface for one-to-many or many-to-many interfaces between control and experiment systems, and architecting a data pipeline using a neuroscience database and task metadata specifications.
 
 ## 🚀 What We Do
 
@@ -11,10 +11,6 @@ CageLab is a collaborative project to build a high-throughput and large-scale co
 - **Software** - PsychToolbox-based experimental control, enabling existing experiment code designed for the lab to work more quickly in the home environment. PTB, with the largest support of different device hardware and best-in-class timing remains the gold-standard way to run neuroscience tasks.
 - **Data pipeline** - integrating Alyx (International Brain Lab ONE protocol pipeline) to scale data collection to a large number of home environment test devices.
 - **Task Design** - Automated cognitive training using a tuned asymmetric staircase: more standardised and adaptive training per subject, hopefully resulting is faster training times.
-
-## 📫 Get Involved
-
-Interested in contributing or learning more? Check out our repositories and feel free to explore, fork, and contribute!
 
 ## 🌟 Our Projects
 
