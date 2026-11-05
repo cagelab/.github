@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Shared rules: open PRs on Monday morning, group non-major updates into one PR and automerge it once CI passes; majors stay separate and manual",
+  "extends": ["config:recommended", "schedule:weekly"],
+  "minimumReleaseAge": "3 days",
+  "dependencyDashboard": true,
+  "commitMessageAction": "⬆️ update",
+  "packageRules": [
+    {
+      "description": "One PR per repository for everything but majors",
+      "matchUpdateTypes": ["minor", "patch", "pin", "pinDigest", "digest"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-non-major",
+      "automerge": true
+    }
+  ]
+}

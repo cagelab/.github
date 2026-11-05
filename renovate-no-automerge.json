@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "For repositories whose default branch has no required status checks: nothing merges without a person. Extend after renovate-config, and drop once the branch requires CI",
+  "packageRules": [
+    {
+      "description": "Without required checks an automerge could land untested work",
+      "matchPackageNames": ["*"],
+      "automerge": false
+    }
+  ]
+}
